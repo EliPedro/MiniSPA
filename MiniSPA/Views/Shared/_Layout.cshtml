@@ -1,28 +1,28 @@
 ﻿<html ng-app="app">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="~/app/app.js" asp-append-version="true"></script>
-
     @RenderSection("JavascriptHeader", required: false)
 </head>
 <body>
-    <div class="row">
-        <div class="navbar navbar-default">
-            <div class="navbar-header">
-                <ul class="navbar navbar-nav">
-                    <li>
-                        <span class="navbar navbar-brand">Registros</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-collapse colapse">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Escola Virtual</a>
+                </div>
                 <ul class="nav navbar-nav">
                     <li><a href="/Registro/Cursos">Cursos</a></li>
                     <li><a href="/Registro/Estudantes">Estudantes</a></li>
                 </ul>
             </div>
-        </div>
-    </div>
-    @RenderBody()
+        </nav>
+     @RenderBody()
 </body>
 </html>
