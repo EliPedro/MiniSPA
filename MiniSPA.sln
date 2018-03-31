@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniSPA", "MiniSPA\MiniSPA.csproj", "{7E5A3985-D8ED-40D4-AB2B-2AA6E1DF6A5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniSPA", "MiniSPA\MiniSPA.csproj", "{ED2888BF-2C6F-44D0-A27E-C0FE344249F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E5A3985-D8ED-40D4-AB2B-2AA6E1DF6A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E5A3985-D8ED-40D4-AB2B-2AA6E1DF6A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E5A3985-D8ED-40D4-AB2B-2AA6E1DF6A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E5A3985-D8ED-40D4-AB2B-2AA6E1DF6A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2888BF-2C6F-44D0-A27E-C0FE344249F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2888BF-2C6F-44D0-A27E-C0FE344249F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2888BF-2C6F-44D0-A27E-C0FE344249F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2888BF-2C6F-44D0-A27E-C0FE344249F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

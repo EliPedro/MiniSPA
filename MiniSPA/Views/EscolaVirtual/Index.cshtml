@@ -1,0 +1,20 @@
+﻿@model MiniSPA.EscolaVirtual.Registros.Registro
+
+@section JavascriptHeader
+    {
+    <script src="~/app/controllers/cursos/cursos-controller.js" asp-append-version="true"></script>
+    <script src="~/app/controllers/estudantes/estudantes-controller.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        app.factory('bootstrappedData', function() {
+            return {
+                cursos: @Html.Raw(Model.Cursos),
+               estudantes: @Html.Raw(Model.Estudantes)
+            };
+        });
+    </script>
+}
+
+<div class="container">
+    <div ng-view></div>
+</div>
